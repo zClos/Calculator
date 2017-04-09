@@ -21,10 +21,10 @@ public class RunCalculator {
         System.out.println(">>> (5-2*(13/6))+1 = " + ParserCalc_a1.eval("(5-2*(13/6))+1"));
 
 /** This one give correct result with ParserCalc_a2 but wrong with ParserCalc_a1 */
-        System.out.println(">>> (1+3)*3+1 = " + ParserCalc_a2.eval("(1+3)*3+1"));
+        System.out.println(">>> (1+3)*3+1 = " + ParserCalc_a1.eval("(1+3)*3+1"));
 
 /** This one correct work with ParserCalc_a1 but give exception with ParserCalc_a2 */
-        System.out.println(">>> (5-2*(13/6))*((1+3)*2)+1 = " + ParserCalc_a1.eval("(5-2*(13/6))*((1+3)*2)+1"));
+        System.out.println(">>> (5-2*(13/6))*((1+3)*2)+1 = " + ParserCalc_a2.eval("(5-2*(13/6))*((1+3)*2)+1"));
         System.out.println(">>> (5-2*(13/6))*(((1+3)*2)/2)+1 = " + ParserCalc_a2.eval("(5-2*(13/6))*(((1+3)*2)/2)+1"));
     }
 
